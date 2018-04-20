@@ -1,10 +1,5 @@
 # *-* coding: utf-8 *-*
 
-import os
-import struct
-import numpy as np
-import imageio
-
 # Hoda Images Extractor
 # Python code for extracting Hoda dataset images.
 
@@ -15,6 +10,11 @@ import imageio
 
 # Repository:
 # https://github.com/amir-saniyan/HodaImagesExtractor
+
+import os
+import struct
+import numpy as np
+import imageio
 
 
 def read_hoda_cdb(file_name):
